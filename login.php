@@ -1,0 +1,94 @@
+<?php
+session_start();
+$usr = "";
+$reginfo = "";
+
+if (isset($_SESSION['regMsg'])) {
+	$usr = $_SESSION['regMsg'];	
+}
+if (isset($_SESSION['regMsg'])) {
+	$reginfo = $_SESSION['regMsg'];
+}
+
+echo "<!doctype html>\n"; 
+echo "<html>\n"; 
+echo "<head>\n"; 
+echo "<meta charset=\"utf-8\">\n"; 
+echo "	<title>Login and Sign up</title>\n"; 
+echo "	<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\">\n"; 
+echo "	<link href=\"css/login.css\" rel=\"stylesheet\" type=\"text/css\">\n"; 
+echo "</head>\n"; 
+echo "<body>\n";
+echo "\n"; 
+echo "<div class=\"head\" ><img src=\"images/logo.png\" width=\"500\" height=\"110\" alt=\"\"/></div>\n"; 
+echo "<hr class=\"hline\" color=\"#000000\" />\n"; 
+echo "<div>\n"; 
+echo "	<ul class=\"mainNav\">\n"; 
+echo "    <li><a  href=\"index.php\">Home</a></li>\n"; 
+echo "    <li class=\"drop\"><a href=\"models_hatch.php\">Models</a>\n"; 
+echo "    	<ul class=\"SubMenu\">\n"; 
+echo "        	<li><a href=\"models_hatch.php\">Hatchback</a></li>\n"; 
+echo "           <li><a href=\"models_suv.php\">SUV</a></li>   \n"; 
+echo "        </ul>\n"; 
+echo "    </li>\n"; 
+echo "    <li><a href=\"booking.php\">Booking</a></li>\n"; 
+echo "    <li><a href=\"service.php\">Service</a></li>\n"; 
+echo "    <li><a href=\"about.php\">About</a></li>\n"; 
+echo "    <li><a href=\"contact.php\">Contact</a></li></ul>\n"; 
+echo "</div>\n"; 
+echo "<hr class=\"hline\" color=\"#000000\" />\n"; 
+echo "\n"; 
+echo "<div class=\"divLogin\">\n"; 
+echo "<table><tr><td>\n"; 
+echo "<label>Welcome back :-)</label>\n"; 
+echo "	<h3 class=\"alerts\">Login</h3>\n"; 
+echo "    <form action=\"login_val.php\" method=\"POST\" class=\"loginAlerts\">\n"; 
+echo "    <fieldset>\n"; 
+echo "    	<label for=\"alerts-username\">Username:</label>\n"; 
+echo "        <input name=\"username\" type=\"email\" autofocus required id=\"alerts-username\" maxlength=\"24\" />\n"; 
+echo "    </fieldset>\n"; 
+echo "    <fieldset>\n"; 
+echo "    	<label for=\"alerts-password\">Password:</label>\n"; 
+echo "        <input name=\"password\" type=\"password\" required id=\"alerts-password\"/> \n"; 
+echo "    </fieldset>\n"; 
+echo "    <fieldset>\n"; 
+echo "    	<input type=\"submit\" name=\"submit\" value=\"Let me in\" />\n"; 
+echo "    </fieldset>\n"; 
+echo "    <fieldset>\n"; 
+echo "		<a href=\"forgot.php\">Forgot Password</a>\n"; 
+echo "		</fieldset>\n";
+echo "    <fieldset>\n"; 
+echo "<label>$usr</label>";
+echo "    </fieldset>\n"; 
+echo "    </form>\n"; 
+echo " \n"; 
+echo "</td>\n"; 
+echo "<td><div class=\"vr\">&nbsp;</div></td>\n"; 
+echo "<td>\n"; 
+echo "	\n"; 
+echo "    <label>Don't you have an account!</label>\n"; 
+echo "	<h3 class=\"alerts\">Sign up</h3>\n"; 
+echo "    <form name=\"sig\" action=\"login_signup_val.php\" method=\"POST\" class=\"loginAlerts\">\n"; 
+echo "    <fieldset>    	\n"; 
+echo "        <input name=\"uname\" maxlength=\"20\" type=\"text\" autofocus required placeholder=\"Name\" onkeypress=\"return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))\" /> \n"; 
+echo "    </fieldset>\n"; 
+echo "	<fieldset>    	\n"; 
+echo "        <input name=\"mobile\" type=\"text\" required placeholder=\"Mobile number\" maxlength=\"10\" onkeypress=\"return event.charCode >= 48 && event.charCode <= 57\"  /> \n"; 
+echo "    </fieldset>\n"; 
+echo "    <fieldset>    	\n"; 
+echo "        <input name=\"username\" type=\"email\" autofocus required placeholder=\"Email as username\" maxlength=\"24\" />\n"; 
+echo "    </fieldset>\n"; 
+echo "    <fieldset>    	\n"; 
+echo "        <input name=\"pword\" type=\"password\" required placeholder=\"Set a password\" /> \n"; 
+echo "    </fieldset>    \n"; 
+echo "    <fieldset>\n"; 
+echo "    	<input type=\"submit\" value=\"Register\" />\n"; 
+echo "    </fieldset>\n";  
+echo "    </form>\n"; 
+echo "    \n"; 
+echo "</td>\n"; 
+echo "</tr></table></div>\n"; 
+echo "</body>\n"; 
+echo "</html>\n"; 
+echo "\n";
+?>

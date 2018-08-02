@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#map {
+        width: 900px;
+        height: 420px;
+		background-color: #CCC;
+		float:right;
+		padding:30px;
+		position:absolute;
+		top:187px;
+		right:0px;
+		z-index:-1;
+      }

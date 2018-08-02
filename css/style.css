@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin:0px;
+	min-width:700px;
+	
+	
+}
+.head {
+	text-align:center;
+	background-color:#00BFFF;
+	margin:0;
+	padding:10px;
+	
+	
+}
+
+.hline {
+	padding:0;
+	margin:0;
+	
+	
+}
+/* Menu */
+.mainNav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;	
+	text-align:center;
+	min-width:700px;
+			
+}
+.mainNav > li {
+    display:inline-block;
+	text-align:center;
+}
+.mainNav > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+	
+
+}
+li a:hover {
+    background-color: #111;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.active {
+    background-color: #00BFFF;
+	
+		
+}
+.mainNav li a:focus {
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+/* Submenu (Dropdown Menu) */
+.SubMenu {
+	list-style-type:none;
+	display:none;
+	text-align:center;
+	background-color:#232222 ;
+	position: absolute;
+	min-width: 150px;
+	margin:0px;
+	padding:0px;
+	z-index:1;	
+	opacity:0.8;
+	
+}
+.drop:hover .SubMenu {
+	display:block;
+	
+}
+
+/* Submenu */
+/* Menu */
+
+/* Contact form */
+.form {	
+	padding:0px;
+	margin:0px;
+	
+}
+#contact-form{
+	position:absolute;
+	left:0;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea
+{
+	width:300px;	
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#contact-form input[type="submit"] {
+	margin-left:20px;
+	width: 150px;
+}
+
+/* Contact form */
+
+/* Login */
+.log a {
+	list-style-type:none;
+	padding:10px;
+	text-decoration:none;
+	color:#000000;
+	position:absolute;
+	top:5px;
+	right:10px;
+	
+}
+.log label {
+	list-style-type:none;
+	padding:10px;
+	text-decoration:none;
+	color:#000000;
+	position:absolute;
+	top:100px;
+	right:10px;
+	
+}
+.login {
+	height: 300px;
+    width: 450px;
+    position: fixed;
+	background-color:#FFFFFF;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 40px 0 rgba(0, 0, 0, 0.19);
+	text-align:center;
+	
+}
+.login input {
+	
+	line-height: 2em;
+	font-size:18px;	
+	
+}
+.login input[type=submit] {
+    width: 17em;  height: 2em;
+	
+}
+
+/* Login */
+
+/* Booking */
+
+/* Booking */
+
+/* about */
+#paragraph p {
+	line-height:2em;
+	font-size:16px;
+	size:30px;		
+	padding:5px 8px;
+	color:#666;
+	border:none;	
+	margin: 0 0 10px 20px;	
+	background-color:#fff;
+	min-width:300px;
+}
+#paragraph pre {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	min-width:100px;
+}
+/* about */
+/* service */
+
+/* service */

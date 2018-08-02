@@ -1,0 +1,23 @@
+.content-one {
+	background-color:#00BFFF;
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:300px;
+	top:150px;
+	font-size:30px;
+	text-align:center;
+	line-height: 190px;
+	
+}
+.content-two {
+	background-color:#00BFFF;
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:675px;
+	top:150px;
+	font-size:30px;
+	text-align:center;
+	line-height: 190px;
+}

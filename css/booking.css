@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carArrange {
+	position:absolute;
+	top:200px;
+	right:10px;
+	z-index:-1;
+	
+}
+
+.carArrange img {
+	width:600px;
+	
+}

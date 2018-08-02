@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.lbl {
+	display:block;
+	font-size:24px;
+	position:absolute;
+	text-align:center;
+	
+}
+
+#footMenu {
+	display:block;
+	position:fixed;
+	z-index:1;
+	bottom:0;
+    left: 0;
+    right: 0;
+	background-color : #00BFFF;
+	
+}
+
+
+
+#footeft {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+	text-align:center;
+	min-width:700px;
+}
+#footeft > li {
+    display:inline-block;
+	text-align:center;
+}
+#footeft > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 30px;
+    text-decoration: none;
+	
+}
+
+#footMenu a:hover, #footMenu li.active a { 
+	font-size:22px;
+} 
+
+h2 {
+	text-align:center;
+	font-size:35px;
+	font-weight:normal;
+}
+#colorChoose input[type="image"] {
+	
+	width:50px;
+	height:50px;
+	border:2px solid #000000;	
+	border-radius:500px;
+	outline:none;
+	margin:10px;
+}
+#colorChoose {
+	text-align:center;
+	
+}
+#car {
+	text-align:center;	
+}
+
+
+#trans {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	position:absolute;
+	top:500px;
+	right:10px;
+	font-size:100px;
+	color:#00BFFF;
+	opacity:0.5;
+	
+}
+#trans2 {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	position:absolute;
+	top:500px;
+	left:10px;
+	font-size:100px;
+	color:#00BFFF;
+	opacity:0.5;
+}
+
+#transInt {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	position:absolute;
+	top:1350px;
+	right:10px;
+	font-size:100px;
+	color:#00BFFF;
+	opacity:0.5;
+}
+#transInt2 {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	position:absolute;
+	top:1350px;
+	left:10px;
+	font-size:100px;
+	color:#00BFFF;
+	opacity:0.5;
+}
+
+#myImage {
+	display:block;
+	max-width:100%;
+	height:auto;
+	overflow:auto;
+}
+#myImageSuv {
+	display:block;
+	max-width:100%;
+	height:auto;
+	overflow:auto;
+}
+
+#exterior {
+	width:100%; height:800px;
+}
+#interior {
+	width:100%; height:800px;
+}
+#feature {
+	width:100%; height:800px;
+}
+#colors {
+	width:100%; height:800px;
+}
+

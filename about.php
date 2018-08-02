@@ -1,0 +1,58 @@
+<?php
+session_start();
+$usr = "";
+$usrlog = "Login";
+$loglink = "login.php";
+$wel = "";
+if (isset($_SESSION['userName'])) {
+	$usr = $_SESSION['userName'];
+	$usrlog = $_SESSION['usrlog'];
+	$loglink = $_SESSION['loglink'];
+	$wel = "Welcome ";
+}
+echo "\n"; 
+echo "<!doctype html>\n"; 
+echo "<html>\n"; 
+echo "<head>\n"; 
+echo "<meta charset=\"utf-8\">\n"; 
+echo "<title>About us</title>\n"; 
+echo "<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\">\n"; 
+echo "</head>\n"; 
+echo "\n"; 
+echo "<body>\n"; 
+echo "<div class=\"log\" ><a href=\"$loglink\">$usrlog</a></div>\n"; 
+echo "<div class=\"log\"><label>$wel $usr</label></div>";
+echo "<div class=\"head\" ><img src=\"images/logo.png\" width=\"500\" height=\"110\" alt=\"\"/></div>\n"; 
+echo "<hr class=\"hline\" color=\"#000000\" />\n"; 
+echo "<div>\n"; 
+echo "	<ul class=\"mainNav\">\n"; 
+echo "    <li><a  href=\"index.php\">Home</a></li>\n"; 
+echo "    <li class=\"drop\"><a href=\"models_hatch.php\">Models</a>\n"; 
+echo "    	<ul class=\"SubMenu\">\n"; 
+echo "        	<li><a href=\"models_hatch.php\">Hatchback</a></li>\n"; 
+echo "                <li><a href=\"models_suv.php\">SUV</a></li>   \n"; 
+echo "        </ul>\n"; 
+echo "    </li>\n"; 
+echo "    <li><a href=\"booking.php\">Booking</a></li>\n"; 
+echo "    <li><a href=\"service.php\">Service</a></li>\n"; 
+echo "    <li><a class=\"active\" href=\"about.php\">About</a></li>\n"; 
+echo "    <li><a href=\"contact.php\">Contact</a></li></ul>\n"; 
+echo "</div>\n"; 
+echo "<hr class=\"hline\" color=\"#000000\" />\n"; 
+echo "<div id=\"paragraph\"><table><tr><td>\n"; 
+echo "	<p align=\"justify\">&nbsp &nbsp &nbsp &nbsp Online Car Showroom (OCS) is a cross-functional enterprise system driven by an integrated suite of software modules \n"; 
+echo "	that supports the basic internal business processes of a company \n"; 
+echo "	<br>&nbsp &nbsp &nbsp &nbsp The proposed Online Car Showroom would use a variety of applications to make the Customer’s job easier. This information would then permit them to respond to adverse conditions far more rapidly than would be possible. This has become an absolute necessity in order to integrate intelligent vehicles. Similarly, considerable research activity is currently underway to create a User friendly solution by integrating all solutions in one. This way both the Company and the Customer is satisfied and we can achieve win to win situation.\n"; 
+echo "<br>&nbsp &nbsp &nbsp &nbsp The project is about helping the Customer to choose the right product they want easily by provide all the required information to the Customer.\n"; 
+echo "Development of Online Car Showroom Management package, which is a blend of software modules helps in integrating data and real time information. It helps in better planning and management of resources as per the requirements of company and by satisfying the customer needs. It is a complete business project which suits small, medium and large scale industry. Can be customized as per requirements.\n"; 
+echo "</p>\n"; 
+echo "<td><pre>	Developed by :\n"; 
+echo "\n"; 
+echo "				HARISH YADAV A N		[1MS15MCA21]\n"; 
+echo "</td></tr></table>\n"; 
+echo "</div>\n"; 
+echo "\n"; 
+echo "</body>\n"; 
+echo "</html>\n"; 
+echo "\n";
+?>

@@ -1,0 +1,83 @@
+	function displayNextImageSuvInt() {
+              a = (a === imgsuvint.length - 1) ? 0 : a + 1;              
+			  var doc = document.getElementById("interiorsuv");
+			  doc.src = "images/suv/SuvInt/" + imgsuvint[a];
+          }
+
+          function displayPreviousImageSuvInt() {
+              a = (a <= 0) ? imgsuvint.length - 1 : a - 1;              
+			  var doc = document.getElementById("interiorsuv");
+			  doc.src = "images/suv/SuvInt/" + imgsuvint[a];
+          }
+
+          
+	var imgsuvint = [], a = -1;
+	imgsuvint[0] = "1 (1).jpg";
+	imgsuvint[1] = "1 (2).jpg";
+	imgsuvint[2] = "1 (3).jpg";
+	imgsuvint[3] = "1 (4).jpg";
+	imgsuvint[4] = "1 (5).jpg";
+	imgsuvint[5] = "1 (6).jpg";
+	imgsuvint[6] = "1 (7).jpg";
+	imgsuvint[7] = "1 (8).jpg";
+	imgsuvint[8] = "1 (9).jpg";
+	imgsuvint[9] = "1 (10).jpg";
+	imgsuvint[9] = "1 (11).jpg";	
+	imgsuvint[10] = "1 (12).jpg";
+	imgsuvint[11] = "1 (13).jpg";
+	imgsuvint[12] = "1 (14).jpg";
+	imgsuvint[13] = "1 (15).jpg";
+	imgsuvint[14] = "1 (16).jpg";
+	imgsuvint[15] = "1 (17).jpg";
+	imgsuvint[16] = "1 (18).jpg";
+	imgsuvint[17] = "1 (19).jpg";
+	imgsuvint[18] = "1 (20).jpg";
+	imgsuvint[19] = "1 (21).jpg";
+	imgsuvint[20] = "1 (22).jpg";
+	imgsuvint[21] = "1 (23).jpg";
+	imgsuvint[22] = "1 (24).jpg";
+	imgsuvint[23] = "1 (25).jpg";
+	imgsuvint[24] = "1 (26).jpg";
+	imgsuvint[25] = "1 (27).jpg";
+	imgsuvint[26] = "1 (28).jpg";
+	imgsuvint[27] = "1 (29).jpg";
+	imgsuvint[28] = "1 (30).jpg";
+	imgsuvint[29] = "1 (31).jpg";
+	imgsuvint[30] = "1 (32).jpg";
+	imgsuvint[31] = "1 (33).jpg";
+	imgsuvint[32] = "1 (34).jpg";
+	imgsuvint[33] = "1 (35).jpg";
+	imgsuvint[34] = "1 (36).jpg";	
+	imgsuvint[35] = "1 (37).jpg";
+	imgsuvint[36] = "1 (38).jpg";
+	imgsuvint[37] = "1 (39).jpg";
+	imgsuvint[38] = "1 (40).jpg";
+	imgsuvint[39] = "1 (41).jpg";
+	imgsuvint[40] = "1 (42).jpg";
+	imgsuvint[41] = "1 (44).jpg";
+	imgsuvint[42] = "1 (45).jpg";	
+	imgsuvint[43] = "1 (46).jpg";
+	imgsuvint[44] = "1 (47).jpg";
+	imgsuvint[45] = "1 (48).jpg";	
+	imgsuvint[46] = "1 (49).jpg";
+	imgsuvint[47] = "1 (50).jpg";
+	imgsuvint[48] = "1 (51).jpg";
+	imgsuvint[49] = "1 (52).jpg";
+	imgsuvint[50] = "1 (53).jpg";
+	imgsuvint[51] = "1 (54).jpg";
+	imgsuvint[52] = "1 (55).jpg";
+	imgsuvint[53] = "1 (56).jpg";
+	imgsuvint[54] = "1 (57).jpg";
+	imgsuvint[55] = "1 (58).jpg";
+	imgsuvint[56] = "1 (59).jpg";
+	imgsuvint[57] = "1 (60).jpg";
+	imgsuvint[58] = "1 (61).jpg";
+	imgsuvint[59] = "1 (62).jpg";
+	imgsuvint[60] = "1 (63).jpg";
+	imgsuvint[61] = "1 (64).jpg";
+	imgsuvint[62] = "1 (65).jpg";
+	imgsuvint[63] = "1 (67).jpg";
+	imgsuvint[64] = "1 (68).jpg";
+	imgsuvint[65] = "1 (69).jpg";
+	imgsuvint[66] = "1 (70).jpg";
+	imgsuvint[67] = "1 (71).jpg";
